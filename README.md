@@ -12,4 +12,11 @@ Description
 - Hero Section
   - Picture of students working in the Waterfront Campus
   - Brief description of what Interaction Design is on the picture, low opacity text
-  - Course overviewa sdfasf
+  - Brief list of what career options exist in this pathway
+  - What software and skills you will learn and require in the industry
+  - Emerging areas in the industry
+  - A "day-in-the-life" example: what do designers do on a daily basis
+- Technical Information
+  - Program code, location, duration, credential, tuition cost, program requirements
+- Footer
+  - Social media links, policies
