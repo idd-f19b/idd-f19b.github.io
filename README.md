@@ -12,4 +12,4 @@ Description
 - Hero Section
   - Picture of students working in the Waterfront Campus
   - Brief description of what Interaction Design is on the picture, low opacity text
-  - 
+  - Course overview
