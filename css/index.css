@@ -1,7 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+html {
+
+	/* ---- CSS CUSTOM PROPERTIES ---- */
+
+	/* Background Colors */
+	--primary-a: #0065a4;
+	--primary-b: #ffffff;
+	--primary-c: #252525;
+
+	/* Foreground Colours */
+	--on-primary: #ffffff;
+	--on-secondary: #000000;
+
+	/* Fonts */
+	--font-standard: 'PT Serif', georgia, serif;
+	--font-impact: 'Roboto', helvetica, sans-serif;
+}
+
 body {
-	background-color: lightgray;
+	font: normal normal 1em/2 var(--font-standard);
 	font-weight: normal;
 	font-style: normal;
-	font-size: 1.5rem;
-	font-family: 
+	font-size: 1em;
+	line-height: 2;
 }
+
+a {
+	color: var(--primary-a);
+}
+
+a:hover {
+	color: #3399ff;
+}
+
+.top-bar {
+	background-color: var(--primary-b);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.intro {
+	zoom: 2;
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 100%;
+}
+
+.campus-environment {
+	text-align: center;
+	padding: 10px;
+}
+
+.campus-environment-title {
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px
+}
+
+.skills-and-experience {
+	text-align: center;
+	padding: 10px;
+}
+
+.skills-and-experience-title {
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+.career-pathways {
+	text-align: center;
+	padding: 10px;
+}
+
+.career-pathways-title {
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+.overview-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+.overview {
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	padding: 10px;
+}
+
+.program-name {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.code {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.school {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.location {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.duration {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.starting-month {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.credential {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.method-of-study {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.courses-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+.courses {
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.semester-1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.semester-2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.semester-3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.semester-4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.semester-5 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.semester-6-or-fp {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.graduate-quote {
+	text-align: center;
+}
+
+.apply-link {
+	text-align: center;
+	padding: 15px;
+}
+
+footer {
+	font-size: 0.7em;
+	text-align: center;
+	background-color: var(--primary-c);
+	color: var(--on-primary);
+}
+
+.newsletter-hook {
+	font-weight: bold;
+}
+
+.contact-title {
+	font-weight: bold;
+}
+
+.social-media-title {
+	font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 640px) {
+	.campus-environment-title {
+		font-size: 0.8em;
+}
+
+	.campus-environment {
+		font-size: 0.6em;
+	}
+
+	.skills-and-experience-title {
+		font-size: 0.8em;
+	}
+
+	.skills-and-experience {
+		font-size: 0.6em;
+	}
+
+	.career-pathways-title {
+		font-size: 0.8em;
+	}
+
+	.career-pathways {
+		font-size: 0.6em;
+	}
+
+	.overview-title {
+		font-size: 0.6em;
+	}
+
+	.overview {
+		font-size: 0.6em;
+	}
+	
+	.courses-title {
+		font-size: 0.6em;
+	}
+
+	.courses {
+		font-size: 0.6em;
+	}
+
+	.graduate-quote {
+		font-size: 0.6em;
+	}
